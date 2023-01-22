@@ -11,7 +11,7 @@ function App() {
     <Router>
       <NavBar />
       <Route exact path ="/" component={Home}/>
-      <Route path ="movies" component={Movies}/>
+      <Route path ="/movies" component={Movies}/>
       <Route path ="/directors" component={Directors}/>
       <Route path ="/actors" component={Actors}/>
      
